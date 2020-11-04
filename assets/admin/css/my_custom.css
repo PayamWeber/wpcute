@@ -1,0 +1,11 @@
+#product_color-adder{
+    display: none;
+}
+
+#energy_usage-adder{
+    display: none;
+}
+
+.wc-metaboxes-wrapper button.add_attribute{
+    display: none;
+}

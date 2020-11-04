@@ -1,0 +1,2256 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Snowa\n"
+"POT-Creation-Date: 2020-07-29 14:17+0430\n"
+"PO-Revision-Date: 2020-07-29 14:19+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/acf/about-page-settings.php:5 inc/acf/agents-page-settings.php:5
+#: inc/acf/blog-page-settings.php:5 inc/acf/contact-page-settings.php:5
+#: inc/acf/contact-settings.php:5 inc/acf/customers-page-settings.php:5
+#: inc/acf/discount-settings.php:5 inc/acf/discounts-page-settings.php:5
+#: inc/acf/event-settings.php:5 inc/acf/faq-page-settings.php:5
+#: inc/acf/faq-settings.php:5 inc/acf/festivals-page-settings.php:5
+#: inc/acf/gallery-page-settings.php:5 inc/acf/music-settings.php:5
+#: inc/acf/package-request-settings.php:5 inc/acf/packages-page-settings.php:5
+#: inc/acf/page-settings.php:5 inc/acf/photo-album-settings.php:5
+#: inc/acf/post-settings.php:5 inc/acf/retailers-page-settings.php:5
+#: inc/acf/service-settings.php:4 inc/acf/services-page-settings.php:5
+#: inc/acf/shop-settings.php:5 inc/acf/special-card-page-settings.php:5
+#: inc/acf/special-card-request-settings.php:5
+#: inc/acf/special-card-settings.php:5 inc/acf/support-page-settings.php:5
+#: inc/nvm-options_content.php:15
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: inc/acf/about-page-settings.php:9 inc/acf/gallery-page-settings.php:9
+#: inc/acf/services-page-settings.php:9
+msgid "Introduction"
+msgstr "معرفی"
+
+#: inc/acf/about-page-settings.php:15 inc/acf/about-page-settings.php:43
+#: inc/acf/about-page-settings.php:100 inc/acf/about-page-settings.php:120
+#: inc/acf/contact-page-settings.php:49 inc/acf/customers-page-settings.php:41
+#: inc/acf/discount-settings.php:10 inc/acf/discount-settings.php:50
+#: inc/acf/discounts-page-settings.php:10
+#: inc/acf/discounts-page-settings.php:50 inc/acf/gallery-page-settings.php:15
+#: inc/acf/packages-page-settings.php:10 inc/acf/services-page-settings.php:15
+#: inc/acf/special-card-page-settings.php:10
+#: inc/acf/special-card-settings.php:16 inc/acf/special-card-settings.php:56
+#: inc/elementor/widgets/SW_Audio/controls.php:14
+#: inc/elementor/widgets/SW_Before_After/controls.php:33
+#: inc/elementor/widgets/SW_Before_After/controls.php:35
+#: inc/elementor/widgets/SW_Blue_Items/controls.php:16
+#: inc/elementor/widgets/SW_Blue_Items/controls.php:99
+#: inc/elementor/widgets/SW_Blue_Items/controls.php:101
+#: inc/elementor/widgets/SW_Category_Posts/controls.php:27
+#: inc/elementor/widgets/SW_Dark_Image_Cards/controls.php:33
+#: inc/elementor/widgets/SW_Dark_Items/controls.php:14
+#: inc/elementor/widgets/SW_Dark_Items/controls.php:54
+#: inc/elementor/widgets/SW_Dark_Items/controls.php:56
+#: inc/elementor/widgets/SW_Four_Value/controls.php:14
+#: inc/elementor/widgets/SW_Four_Value/controls.php:41
+#: inc/elementor/widgets/SW_Four_Value/controls.php:76
+#: inc/elementor/widgets/SW_Four_Value/controls.php:111
+#: inc/elementor/widgets/SW_Four_Value/controls.php:146
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:35
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:119
+#: inc/elementor/widgets/SW_History/controls.php:14
+#: inc/elementor/widgets/SW_History/controls.php:79
+#: inc/elementor/widgets/SW_History/controls.php:81
+#: inc/elementor/widgets/SW_Items_Media/controls.php:30
+#: inc/elementor/widgets/SW_Items_Media/controls.php:132
+#: inc/elementor/widgets/SW_Items_Media/controls.php:134
+#: inc/elementor/widgets/SW_Jumbotron/controls.php:28
+#: inc/elementor/widgets/SW_Jumbotron/controls.php:85
+#: inc/elementor/widgets/SW_Jumbotron/controls.php:87
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:14
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:45
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:84
+#: inc/elementor/widgets/SW_Pinned_Images/controls.php:14
+#: inc/elementor/widgets/SW_Product_Attributes/controls.php:28
+#: inc/elementor/widgets/SW_Product_Attributes/controls.php:50
+#: inc/elementor/widgets/SW_Product_Attributes/controls.php:52
+#: inc/elementor/widgets/SW_Quotes/controls.php:14
+#: inc/elementor/widgets/SW_Small_Cards/controls.php:14
+#: inc/elementor/widgets/SW_Small_Cards/controls.php:48
+#: inc/elementor/widgets/SW_Small_Cards/controls.php:50
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:54
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:88
+#: inc/elementor/widgets/SW_ThermoMeter/controls.php:14
+#: inc/elementor/widgets/SW_TimeLine/controls.php:14
+#: inc/elementor/widgets/SW_WaterMeter/controls.php:14 inc/opt.php:221
+#: inc/opt.php:253 inc/opt.php:415 inc/opt.php:445 inc/opt.php:547
+#: inc/opt.php:577 inc/opt.php:620 inc/opt.php:685 inc/opt.php:720
+#: inc/post-types/post-type-discount.php:36
+#: inc/post-types/post-type-event.php:37 inc/post-types/post-type-photo.php:34
+#: inc/post-types/post-type-service.php:37
+#: inc/post-types/post-type-special-card.php:36
+msgid "Title"
+msgstr "عنوان"
+
+#: inc/acf/about-page-settings.php:22 inc/acf/about-page-settings.php:50
+#: inc/acf/about-page-settings.php:126 inc/acf/discount-settings.php:24
+#: inc/acf/discounts-page-settings.php:24
+#: inc/acf/discounts-page-settings.php:56 inc/acf/packages-page-settings.php:24
+#: inc/acf/special-card-page-settings.php:24
+#: inc/acf/special-card-settings.php:10 inc/acf/special-card-settings.php:30
+#: inc/elementor/widgets/SW_Audio/controls.php:56
+#: inc/elementor/widgets/SW_Before_After/controls.php:14
+#: inc/elementor/widgets/SW_Blue_Items/controls.php:24
+#: inc/elementor/widgets/SW_Blue_Items/controls.php:106
+#: inc/elementor/widgets/SW_Blue_Items/controls.php:108
+#: inc/elementor/widgets/SW_Dark_Image_Cards/controls.php:40
+#: inc/elementor/widgets/SW_Dark_Items/controls.php:61
+#: inc/elementor/widgets/SW_Dark_Items/controls.php:63
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:126
+#: inc/elementor/widgets/SW_History/controls.php:32
+#: inc/elementor/widgets/SW_History/controls.php:88
+#: inc/elementor/widgets/SW_Items_Media/controls.php:46
+#: inc/elementor/widgets/SW_Items_Media/controls.php:139
+#: inc/elementor/widgets/SW_Items_Media/controls.php:141
+#: inc/elementor/widgets/SW_Jumbotron/controls.php:50
+#: inc/elementor/widgets/SW_Jumbotron/controls.php:92
+#: inc/elementor/widgets/SW_Jumbotron/controls.php:94
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:22
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:53
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:76
+#: inc/elementor/widgets/SW_Small_Cards/controls.php:55
+#: inc/elementor/widgets/SW_Small_Cards/controls.php:57
+#: inc/elementor/widgets/SW_ThermoMeter/controls.php:30
+#: inc/elementor/widgets/SW_TimeLine/controls.php:55
+#: inc/elementor/widgets/SW_TimeLine/controls.php:57
+#: inc/elementor/widgets/SW_WaterMeter/controls.php:30 inc/opt.php:420
+#: inc/opt.php:582 inc/opt.php:634
+msgid "Description"
+msgstr "توضیحات"
+
+#: inc/acf/about-page-settings.php:29 inc/acf/about-page-settings.php:86
+#: inc/acf/about-page-settings.php:132 inc/acf/customers-page-settings.php:22
+#: inc/acf/customers-page-settings.php:53
+#: inc/acf/discounts-page-settings.php:74 inc/acf/event-settings.php:16
+#: inc/acf/photo-album-settings.php:21 inc/acf/post-settings.php:17
+#: inc/base/Model/ExternalPost.php:27
+#: inc/elementor/widgets/SW_Audio/controls.php:27
+#: inc/elementor/widgets/SW_Blue_Items/controls.php:32
+#: inc/elementor/widgets/SW_Dark_Items/controls.php:30
+#: inc/elementor/widgets/SW_Items_Media/controls.php:59
+#: inc/elementor/widgets/SW_Items_Media/controls.php:67
+#: inc/elementor/widgets/SW_Jumbotron/controls.php:61
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:30
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:61
+#: inc/elementor/widgets/SW_Small_Cards/controls.php:30 inc/opt.php:287
+#: inc/opt.php:425 inc/opt.php:606 inc/post-types/post-type-discount.php:35
+#: inc/post-types/post-type-event.php:36 inc/post-types/post-type-photo.php:33
+#: inc/post-types/post-type-service.php:36
+#: inc/post-types/post-type-special-card.php:35
+#: inc/shortcodes/short-comparison.php:63
+msgid "Image"
+msgstr "تصویر"
+
+#: inc/acf/about-page-settings.php:37
+msgid "Image Introduction"
+msgstr "تصویر معرفی"
+
+#: inc/acf/about-page-settings.php:57
+#: inc/elementor/widgets/SW_Divided_TextAreas/controls.php:22
+msgid "Second Description"
+msgstr "توضیحات دوم"
+
+#: inc/acf/about-page-settings.php:64 inc/opt.php:357
+msgid "Doctor Name"
+msgstr "نام دکتر"
+
+#: inc/acf/about-page-settings.php:71 inc/opt.php:371
+msgid "Doctor Level"
+msgstr "سطح دکتر"
+
+#: inc/acf/about-page-settings.php:78 inc/opt.php:301
+msgid "Sign Image"
+msgstr "تصویر امضا"
+
+#: inc/acf/about-page-settings.php:94 inc/acf/about-page-settings.php:114
+#: inc/opt.php:408
+msgid "Services"
+msgstr "خدمات"
+
+#: inc/acf/about-page-settings.php:107 inc/acf/contact-page-settings.php:56
+#: inc/acf/customers-page-settings.php:47 inc/acf/discount-settings.php:17
+#: inc/acf/discounts-page-settings.php:17 inc/acf/gallery-page-settings.php:22
+#: inc/acf/packages-page-settings.php:17 inc/acf/services-page-settings.php:22
+#: inc/acf/special-card-page-settings.php:17
+#: inc/acf/special-card-settings.php:23
+#: inc/elementor/widgets/SW_Audio/controls.php:35
+#: inc/elementor/widgets/SW_Audio/controls.php:46
+#: inc/elementor/widgets/SW_Category_Posts/controls.php:35
+#: inc/elementor/widgets/SW_Dark_Items/controls.php:22
+#: inc/elementor/widgets/SW_Four_Value/controls.php:23
+#: inc/elementor/widgets/SW_Four_Value/controls.php:50
+#: inc/elementor/widgets/SW_Four_Value/controls.php:85
+#: inc/elementor/widgets/SW_Four_Value/controls.php:120
+#: inc/elementor/widgets/SW_Four_Value/controls.php:155
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:42
+#: inc/elementor/widgets/SW_History/controls.php:23
+#: inc/elementor/widgets/SW_Items_Media/controls.php:38
+#: inc/elementor/widgets/SW_Jumbotron/controls.php:39
+#: inc/elementor/widgets/SW_Pinned_Images/controls.php:22
+#: inc/elementor/widgets/SW_Product_Attributes/controls.php:36
+#: inc/elementor/widgets/SW_Quotes/controls.php:22
+#: inc/elementor/widgets/SW_Small_Cards/controls.php:22
+#: inc/elementor/widgets/SW_ThermoMeter/controls.php:22
+#: inc/elementor/widgets/SW_TimeLine/controls.php:22
+#: inc/elementor/widgets/SW_WaterMeter/controls.php:22 inc/opt.php:459
+#: inc/opt.php:699
+msgid "Sub Title"
+msgstr "زیر عنوان"
+
+#: inc/acf/about-page-settings.php:139 inc/opt.php:436
+#: inc/post-types/post-type-service.php:11
+#: inc/post-types/post-type-service.php:12
+msgid "Service"
+msgstr "خدمات"
+
+#: inc/acf/agents-page-settings.php:9 inc/acf/blog-page-settings.php:14
+#: inc/acf/customers-page-settings.php:15 inc/acf/faq-page-settings.php:9
+#: inc/acf/festivals-page-settings.php:9 inc/acf/retailers-page-settings.php:9
+#: inc/acf/support-page-settings.php:9
+#: inc/elementor/widgets/SW_Half_Media_Content/controls.php:21
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:21
+msgid "Main Sub Title"
+msgstr "زیر عنوان اصلی"
+
+#: inc/acf/agents-page-settings.php:16 inc/acf/retailers-page-settings.php:16
+msgid "TextBox Description"
+msgstr "توضیحات جعبه متنی"
+
+#: inc/acf/agents-page-settings.php:23 inc/acf/faq-page-settings.php:16
+msgid "Not Found Text"
+msgstr "متن پیدا نشد"
+
+#: inc/acf/blog-page-settings.php:9 inc/acf/customers-page-settings.php:9
+#: inc/class/class-MyShopExtender.php:118
+#: inc/class/class-MyShopExtender.php:151
+msgid "General"
+msgstr "عمومی"
+
+#: inc/acf/campaign-settings.php:5
+msgid "Campaign Settings"
+msgstr "تنظیمات جشنواره"
+
+#: inc/acf/campaign-settings.php:9
+msgid "Campaign end time"
+msgstr "تاریخ پایان جشنواره"
+
+#: inc/acf/campaign-settings.php:16
+msgid "Campaign image"
+msgstr "تصویر جشنواره"
+
+#: inc/acf/campaign-settings.php:24
+msgid "Campaign Link"
+msgstr "لینک جشنواره"
+
+#: inc/acf/contact-page-settings.php:9
+msgid "Information"
+msgstr "اطلاعات"
+
+#: inc/acf/contact-page-settings.php:15
+msgid "Phone Number"
+msgstr "شماره تماس"
+
+#: inc/acf/contact-page-settings.php:22
+msgid "Address"
+msgstr "آدرس"
+
+#: inc/acf/contact-page-settings.php:29
+msgid "Email"
+msgstr "ایمیل"
+
+#: inc/acf/contact-page-settings.php:36
+msgid "Map Url"
+msgstr "آدرس الکترونیکی نقشه"
+
+#: inc/acf/contact-page-settings.php:43
+msgid "Contact Form"
+msgstr "فرم تماس"
+
+#: inc/acf/contact-settings.php:9 inc/acf/package-request-settings.php:9
+#: inc/acf/special-card-request-settings.php:9
+#: inc/post-types/post-type-contact.php:48
+#: inc/post-types/post-type-discount-request.php:53
+#: inc/post-types/post-type-package-request.php:49
+#: inc/post-types/post-type-special-card-request.php:50
+#: inc/shortcodes/short-comparison.php:64
+msgid "Name"
+msgstr "نام"
+
+#: inc/acf/contact-settings.php:15 inc/acf/package-request-settings.php:15
+#: inc/acf/special-card-request-settings.php:15
+#: inc/post-types/post-type-consultation.php:51
+#: inc/post-types/post-type-contact.php:49
+#: inc/post-types/post-type-discount-request.php:54
+#: inc/post-types/post-type-package-request.php:50
+#: inc/post-types/post-type-special-card-request.php:51
+msgid "Mobile"
+msgstr "موبایل"
+
+#: inc/acf/contact-settings.php:21
+msgid "Message"
+msgstr "پیام"
+
+#: inc/acf/customers-page-settings.php:29
+msgid "Image Parts"
+msgstr "بخش های تصویری"
+
+#: inc/acf/customers-page-settings.php:35
+#: inc/acf/discounts-page-settings.php:45
+#: inc/elementor/widgets/SW_Dark_Image_Cards/controls.php:27 inc/opt.php:713
+msgid "Cards"
+msgstr "ورق ها"
+
+#: inc/acf/customers-page-settings.php:63
+msgid "Text Part"
+msgstr "بخش متنی"
+
+#: inc/acf/customers-page-settings.php:69 inc/acf/special-card-settings.php:77
+#: inc/opt.php:730
+msgid "First Text"
+msgstr "متن اول"
+
+#: inc/acf/customers-page-settings.php:75 inc/acf/special-card-settings.php:83
+#: inc/opt.php:735
+msgid "Second Text"
+msgstr "متن دوم"
+
+#: inc/acf/discount-settings.php:29 inc/acf/discounts-page-settings.php:29
+#: inc/acf/packages-page-settings.php:29
+#: inc/acf/special-card-page-settings.php:29
+#: inc/acf/special-card-settings.php:35
+#: inc/elementor/widgets/SW_Half_Media_Content/controls.php:56
+msgid "Video Url"
+msgstr "آدرس ویدیو"
+
+#: inc/acf/discount-settings.php:36 inc/acf/discounts-page-settings.php:36
+#: inc/acf/packages-page-settings.php:36
+#: inc/acf/special-card-page-settings.php:36
+#: inc/acf/special-card-settings.php:42
+msgid "Video Poster"
+msgstr "تصویر ویدیو"
+
+#: inc/acf/discount-settings.php:45 inc/acf/special-card-settings.php:51
+msgid "Features"
+msgstr "ویژگی ها"
+
+#: inc/acf/discounts-page-settings.php:62 inc/acf/general-settings.php:140
+#: inc/acf/general-settings.php:181 inc/acf/general-settings.php:208
+#: inc/elementor/widgets/SW_Blue_Items/controls.php:48
+#: inc/elementor/widgets/SW_Dark_Image_Cards/controls.php:58
+#: inc/elementor/widgets/SW_Divided_TextAreas/controls.php:39
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:67
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:189
+#: inc/elementor/widgets/SW_Pinned_Images/controls.php:120
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:141 inc/opt.php:473
+#: inc/opt.php:648 inc/opt.php:740
+msgid "Button Text"
+msgstr "متن دکمه"
+
+#: inc/acf/discounts-page-settings.php:68
+#: inc/elementor/widgets/SW_Dark_Image_Cards/controls.php:65 inc/opt.php:226
+#: inc/opt.php:258 inc/opt.php:430 inc/opt.php:745
+msgid "Url"
+msgstr "آدرس الکترونیکی"
+
+#: inc/acf/event-settings.php:10
+msgid "Event Location"
+msgstr "مکان رویداد"
+
+#: inc/acf/event-settings.php:16 inc/acf/post-settings.php:17
+msgid "Large"
+msgstr "بزرگ"
+
+#: inc/acf/faq-settings.php:9
+msgid "Answer"
+msgstr "پاسخ"
+
+#: inc/acf/festivals-page-settings.php:16
+msgid "Past Festivals Title"
+msgstr "عنوان جشنواره های پیشین"
+
+#: inc/acf/festivals-page-settings.php:23
+msgid "Past Festivals Sub Title"
+msgstr "زیر عنوان جشنواره های پیشین"
+
+#: inc/acf/general-settings.php:4
+msgid "Special Settings"
+msgstr "تنظیمات اختصاصی"
+
+#: inc/acf/general-settings.php:8
+msgid "General settings"
+msgstr "تنظیمات عمومی"
+
+#: inc/acf/general-settings.php:14
+msgid "Contact Number"
+msgstr "شماره تماس"
+
+#: inc/acf/general-settings.php:15 inc/acf/general-settings.php:22
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:129
+msgid "For Special Words you can enter your text into [] brackets"
+msgstr "برای واژه های خاص میتوانید متن خود را در کاراکتر [] بگذارید"
+
+#: inc/acf/general-settings.php:21
+msgid "CopyRight Text"
+msgstr "متن کپی رایت"
+
+#: inc/acf/general-settings.php:28
+msgid "Home"
+msgstr "خانه"
+
+#: inc/acf/general-settings.php:34
+msgid "Intro Main Text"
+msgstr "متن اصلی معرفی"
+
+#: inc/acf/general-settings.php:41
+msgid "Intro Second Text"
+msgstr "متن دوم معرفی"
+
+#: inc/acf/general-settings.php:48
+msgid "Intro Discover Button Link"
+msgstr "لینک دکمه معرفی"
+
+#: inc/acf/general-settings.php:55
+msgid "Social Media"
+msgstr "رسانه اجتماعی"
+
+#: inc/acf/general-settings.php:61
+msgid "Facebook Url"
+msgstr "آدرس فیسبوک"
+
+#: inc/acf/general-settings.php:68
+msgid "Twitter Url"
+msgstr "آدرس توییتر"
+
+#: inc/acf/general-settings.php:75 inc/opt.php:769
+msgid "Instagram Url"
+msgstr "اینستاگرام"
+
+#: inc/acf/general-settings.php:82
+msgid "Blog"
+msgstr "بلاگ"
+
+#: inc/acf/general-settings.php:88
+msgid "Posts Per Page"
+msgstr "پست ها در هر صفحه"
+
+#: inc/acf/general-settings.php:94
+msgid "Shop"
+msgstr "فروشگاه"
+
+#: inc/acf/general-settings.php:100
+msgid "Products Per Page"
+msgstr "محصولات در هر صفحه"
+
+#: inc/acf/general-settings.php:106
+msgid "Show categories except these"
+msgstr "نمایش دسته بندی ها غیر از این موارد"
+
+#: inc/acf/general-settings.php:113
+msgid "Aparat"
+msgstr "آپارات"
+
+#: inc/acf/general-settings.php:119
+msgid "Aparat Page ID"
+msgstr "آی دی صفحه آپارات"
+
+#: inc/acf/general-settings.php:126 inc/acf/general-settings.php:167
+#: inc/acf/general-settings.php:194
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:117
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:149
+#: inc/elementor/widgets/Section_Controls.php:22
+msgid "Section Title"
+msgstr "عنوان بخش"
+
+#: inc/acf/general-settings.php:133 inc/acf/general-settings.php:174
+#: inc/acf/general-settings.php:201
+msgid "Section SubTitle"
+msgstr "زیر عنوان بخش"
+
+#: inc/acf/general-settings.php:147
+msgid "Instagram"
+msgstr "اینستاگرام"
+
+#: inc/acf/general-settings.php:153
+msgid "Instagram Page ID"
+msgstr "آی دی صفحه اینستاگرام"
+
+#: inc/acf/general-settings.php:160
+msgid "Instagram Access Token"
+msgstr "کد توکن اینستاگرام"
+
+#: inc/acf/general-settings.php:188
+msgid "Contact Us"
+msgstr "تماس با ما"
+
+#: inc/acf/general-settings.php:215
+msgid "Page Definitions"
+msgstr "تعیین صفحات"
+
+#: inc/acf/general-settings.php:221
+msgid "About Page"
+msgstr "صفحه درباره ما"
+
+#: inc/acf/general-settings.php:228
+msgid "Blog Page"
+msgstr "صفحه بلاگ"
+
+#: inc/acf/general-settings.php:235
+msgid "FAQ"
+msgstr "سوالات متداول"
+
+#: inc/acf/general-settings.php:242
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: inc/acf/general-settings.php:249
+msgid "Security"
+msgstr "امنیت"
+
+#: inc/acf/general-settings.php:255
+msgid "Google Captcha SiteKey"
+msgstr "کد sitekey گوگل کپچا"
+
+#: inc/acf/general-settings.php:261
+msgid "Google Captcha SecretKey"
+msgstr "کد secretkey گوگل کپچا"
+
+#: inc/acf/music-settings.php:9
+msgid "Lyrics"
+msgstr ""
+
+#: inc/acf/music-settings.php:16
+msgid "Arrangement"
+msgstr ""
+
+#: inc/acf/music-settings.php:23
+msgid "Mix & Mastering"
+msgstr ""
+
+#: inc/acf/music-settings.php:30
+msgid "Guitar"
+msgstr ""
+
+#: inc/acf/music-settings.php:37
+#, fuzzy
+#| msgid "Products Per Page"
+msgid "Producer"
+msgstr "محصولات در هر صفحه"
+
+#: inc/acf/music-settings.php:44
+msgid "Cover Art"
+msgstr ""
+
+#: inc/acf/music-settings.php:51
+msgid "File Url"
+msgstr "لینک فایل"
+
+#: inc/acf/package-request-settings.php:21
+#: inc/acf/special-card-request-settings.php:21
+#: inc/post-types/post-type-discount-request.php:55
+#: inc/post-types/post-type-package-request.php:51
+#: inc/post-types/post-type-special-card-request.php:52
+msgid "City"
+msgstr "شهر"
+
+#: inc/acf/package-request-settings.php:27
+#: inc/acf/special-card-request-settings.php:27
+#: inc/post-types/post-type-discount-request.php:56
+#: inc/post-types/post-type-package-request.php:52
+#: inc/post-types/post-type-special-card-request.php:53
+msgid "Gender"
+msgstr "جنسیت"
+
+#: inc/acf/package-request-settings.php:33
+#: inc/acf/special-card-request-settings.php:33
+#: inc/post-types/post-type-package-request.php:53
+msgid "Package"
+msgstr "پکیج"
+
+#: inc/acf/page-settings.php:9
+msgid "Caption Image"
+msgstr "تصویر تیتر"
+
+#: inc/acf/photo-album-settings.php:10
+msgid "Introduction Title"
+msgstr "عنوان معرفی"
+
+#: inc/acf/photo-album-settings.php:16
+msgid "Introduction Sub Title"
+msgstr "زیرعنوان معرفی"
+
+#: inc/acf/post-settings.php:9
+msgid "Type"
+msgstr "نوع"
+
+#: inc/acf/post-settings.php:34 inc/base/Model/ExternalPost.php:24
+#: inc/base/Model/Post.php:23 inc/elementor/widgets/SW_Quotes/controls.php:79
+msgid "Video"
+msgstr "ویدیو"
+
+#: inc/acf/retailers-page-settings.php:23
+msgid "Main column text"
+msgstr "متن ستون اصلی"
+
+#: inc/acf/service-settings.php:8
+msgid "Side Image"
+msgstr "تصویر کناری"
+
+#: inc/acf/special-card-settings.php:65
+msgid "Extra Details"
+msgstr "اطلاعات اضافه"
+
+#: inc/acf/special-card-settings.php:71 inc/opt.php:725
+msgid "Tag"
+msgstr "برچسب"
+
+#: inc/acf/support-page-settings.php:16
+msgid "Contact Us Title"
+msgstr "عنوان تماس با ما"
+
+#: inc/acf/support-page-settings.php:23
+msgid "Contact Us SubTitle"
+msgstr "زیر عنوان تماس با ما"
+
+#: inc/acf/support-page-settings.php:30
+msgid "Service Title"
+msgstr "عنوان خدمات"
+
+#: inc/acf/support-page-settings.php:37
+msgid "Service SubTitle"
+msgstr "زیر عنوان خدمات"
+
+#: inc/acf/support-page-settings.php:44
+msgid "Service Url"
+msgstr "آدرس الکترونیکی خدمات"
+
+#: inc/acf/support-page-settings.php:50
+msgid "FAQ Url"
+msgstr "آدرس الکترونیکی سوالات متداول"
+
+#: inc/acf/support-page-settings.php:57
+msgid "FAQ Selection"
+msgstr "سوالات متداول منتخب"
+
+#: inc/acf/support-page-settings.php:65
+msgid "Bottom Text"
+msgstr "متن پایینی"
+
+#: inc/acf/support-page-settings.php:72
+msgid "Bottom Sub Text"
+msgstr "زیر متن پایینی"
+
+#: inc/ajax-actions/ajax-search.php:28
+msgid "An error occurred !"
+msgstr "یک خطا رخ داد !"
+
+#: inc/ajax-actions/ajax-search.php:40
+msgid "Show products in category"
+msgstr "نمایش محصولات در دسته بندی"
+
+#: inc/base/Model/Campaign.php:31
+msgid "Expired"
+msgstr "منقضی شده"
+
+#: inc/base/Model/Campaign.php:35
+msgid "Enable"
+msgstr "فعال"
+
+#: inc/base/Model/ExternalPost.php:25
+#: inc/elementor/widgets/SW_Quotes/SW_Quotes.php:38
+msgid "Quote"
+msgstr "نقل قول"
+
+#: inc/base/Model/ExternalPost.php:26
+msgid "HashTag"
+msgstr "هشتگ"
+
+#: inc/base/Model/Post.php:22
+msgid "Default"
+msgstr "پیشفرض"
+
+#: inc/class/class-ElementorHelper.php:101
+msgid "Snowa Widgets"
+msgstr "ابزارک های اسنوا"
+
+#: inc/class/class-MyShopExtender.php:114
+#: inc/class/class-MyShopExtender.php:149
+#: inc/elementor/widgets/SW_Category_Posts/controls.php:43
+msgid "Category"
+msgstr "دسته بندی"
+
+#: inc/class/class-MyShopExtender.php:129
+#: inc/class/class-MyShopExtender.php:162
+msgid "Show In Advanced Search"
+msgstr "نمایش در جستجوی پیشرفته"
+
+#: inc/class/class-MyShopExtender.php:190
+msgid "Could not update the attribute."
+msgstr "ویژگی آپدیت نشد."
+
+#: inc/class/class-MyShopExtender.php:224
+#: inc/class/class-MyShopExtender.php:227
+#: inc/class/class-MyShopExtender.php:238
+msgid "Product Colors"
+msgstr "رنگ محصولات"
+
+#: inc/class/class-MyShopExtender.php:226
+msgid "Colors"
+msgstr "رنگ ها"
+
+#: inc/class/class-MyShopExtender.php:228
+msgid "Color"
+msgstr "رنگ"
+
+#: inc/class/class-MyShopExtender.php:229
+msgid "Search in Colors"
+msgstr "جستجو در رنگ ها"
+
+#: inc/class/class-MyShopExtender.php:230
+msgid "Popular Colors"
+msgstr "رنگ های محبوب"
+
+#: inc/class/class-MyShopExtender.php:231
+msgid "All Colors"
+msgstr "همه ی رنگ ها"
+
+#: inc/class/class-MyShopExtender.php:232
+msgid "Parent Color"
+msgstr "رنگ والد"
+
+#: inc/class/class-MyShopExtender.php:233
+msgid "Edit Color"
+msgstr "ویرایش رنگ"
+
+#: inc/class/class-MyShopExtender.php:234
+msgid "View Color"
+msgstr "نمایش رنگ"
+
+#: inc/class/class-MyShopExtender.php:235
+msgid "Update Color"
+msgstr "بروزرسانی رنگ"
+
+#: inc/class/class-MyShopExtender.php:236
+msgid "Add Color"
+msgstr "افزودن رنگ"
+
+#: inc/class/class-MyShopExtender.php:237
+msgid "New Color name"
+msgstr "نام جدید رنگ"
+
+#: inc/class/class-MyShopExtender.php:258
+#: inc/class/class-MyShopExtender.php:261
+#: inc/class/class-MyShopExtender.php:272
+msgid "Energy Usage Rates"
+msgstr "میزان مصرف انرژی"
+
+#: inc/class/class-MyShopExtender.php:260
+msgid "Energy Usages"
+msgstr "مصرف انرژی"
+
+#: inc/class/class-MyShopExtender.php:262
+msgid "Usage Rate"
+msgstr "میزان مصرف"
+
+#: inc/class/class-MyShopExtender.php:263
+msgid "Search in Usage Rates"
+msgstr "جستجو در میزان ها"
+
+#: inc/class/class-MyShopExtender.php:264
+msgid "Popular Usage Rates"
+msgstr "میزان های محبوب"
+
+#: inc/class/class-MyShopExtender.php:265
+msgid "All Usage Rates"
+msgstr "همه ی میزان ها"
+
+#: inc/class/class-MyShopExtender.php:266
+msgid "Parent Usage Rate"
+msgstr "میزان مصرف والد"
+
+#: inc/class/class-MyShopExtender.php:267
+msgid "Edit Usage Rate"
+msgstr "ویرایش میزان مصرف"
+
+#: inc/class/class-MyShopExtender.php:268
+msgid "View Usage Rate"
+msgstr "مشاهده میزان مصرف"
+
+#: inc/class/class-MyShopExtender.php:269
+msgid "Update Usage Rate"
+msgstr "بروزرسانی میزان مصرف"
+
+#: inc/class/class-MyShopExtender.php:270
+msgid "Add Usage Rate"
+msgstr "افزودن میزان مصرف"
+
+#: inc/class/class-MyShopExtender.php:271
+msgid "New Usage Rate name"
+msgstr "نام جدید میزان مصرف"
+
+#: inc/class/class-MyShopExtender.php:335
+msgid "WooCommerce Shop Page"
+msgstr "صفحه فروشگاه ووکامرس"
+
+#. translators: %s: title of menu item which is invalid
+#: inc/class/class-nav_menu_edit.php:88
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: inc/class/class-nav_menu_edit.php:95
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: inc/class/class-nav_menu_edit.php:119
+msgid "Move up"
+msgstr ""
+
+#: inc/class/class-nav_menu_edit.php:132
+msgid "Move down"
+msgstr ""
+
+#: inc/class/class-nav_menu_edit.php:134 inc/class/class-nav_menu_edit.php:136
+msgid "Edit Menu Item"
+msgstr ""
+
+#: inc/class/class-nav_menu_edit.php:144
+msgid "URL"
+msgstr "آدرس الکترونیکی"
+
+#: inc/class/class-nav_menu_edit.php:151
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/class/class-nav_menu_edit.php:162
+msgid "position"
+msgstr "موقعیت"
+
+#: inc/class/class-nav_menu_edit.php:166 inc/class/class-nav_menu_edit.php:170
+msgid "right"
+msgstr "راست"
+
+#: inc/class/class-nav_menu_edit.php:166 inc/class/class-nav_menu_edit.php:170
+msgid "left"
+msgstr "چپ"
+
+#: inc/class/class-nav_menu_edit.php:178 inc/opt.php:231
+msgid "Icon"
+msgstr "آیکون"
+
+#: inc/class/class-nav_menu_edit.php:185
+msgid "Dark Icon"
+msgstr "آیکون تیره"
+
+#: inc/class/class-nav_menu_edit.php:186
+msgid "Only used for main top menu"
+msgstr "فقط در منوی بالای سایت استفاده میشود"
+
+#: inc/class/class-nav_menu_edit.php:194
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: inc/class/class-nav_menu_edit.php:207
+msgid "Remove"
+msgstr "حذف"
+
+#: inc/class/class-nav_menu_edit.php:213
+msgid "Cancel"
+msgstr "لغو"
+
+#: inc/class/class-pmw-walker-comment.php:259
+msgid "Pingback:"
+msgstr ""
+
+#: inc/class/class-pmw-walker-comment.php:259
+msgid "Edit"
+msgstr ""
+
+#: inc/class/class-pmw-walker-comment.php:326
+#: inc/class/class-pmw-walker-comment.php:379
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/elementor/widgets/SW_Audio/SW_Audio.php:38
+msgid "Audio"
+msgstr "صوت"
+
+#: inc/elementor/widgets/SW_Audio/controls.php:8
+#: inc/elementor/widgets/SW_Before_After/controls.php:8
+#: inc/elementor/widgets/SW_Dark_Image_Cards/controls.php:8
+#: inc/elementor/widgets/SW_Dark_Items/controls.php:8
+#: inc/elementor/widgets/SW_Divided_TextAreas/controls.php:8
+#: inc/elementor/widgets/SW_Four_Value/controls.php:8
+#: inc/elementor/widgets/SW_Half_Media_Content/controls.php:7
+#: inc/elementor/widgets/SW_History/controls.php:8
+#: inc/elementor/widgets/SW_Items_Media/controls.php:8
+#: inc/elementor/widgets/SW_Jumbotron/controls.php:8
+#: inc/elementor/widgets/SW_Pinned_Images/controls.php:8
+#: inc/elementor/widgets/SW_Product_Attributes/controls.php:22
+#: inc/elementor/widgets/SW_Quotes/controls.php:8
+#: inc/elementor/widgets/SW_Quotes/controls.php:53
+#: inc/elementor/widgets/SW_Quotes/controls.php:55
+#: inc/elementor/widgets/SW_Small_Cards/controls.php:8
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:7
+#: inc/elementor/widgets/SW_ThermoMeter/controls.php:8
+#: inc/elementor/widgets/SW_TimeLine/controls.php:8
+#: inc/elementor/widgets/SW_WaterMeter/controls.php:8
+msgid "Content"
+msgstr "محتوا"
+
+#: inc/elementor/widgets/SW_Audio/controls.php:22
+msgid "Subtitle Style"
+msgstr "طرح زیر عنوان"
+
+#: inc/elementor/widgets/SW_Audio/controls.php:26
+#: inc/elementor/widgets/SW_TimeLine/controls.php:32
+msgid "Text"
+msgstr "متن"
+
+#: inc/elementor/widgets/SW_Before_After/SW_Before_After.php:38
+msgid "Before After Image"
+msgstr "تصویر قبل و بعد"
+
+#: inc/elementor/widgets/SW_Before_After/controls.php:22
+#: inc/elementor/widgets/SW_Blue_Items/controls.php:73
+#: inc/elementor/widgets/SW_Blue_Items/controls.php:88
+#: inc/elementor/widgets/SW_Dark_Items/controls.php:43
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:113
+#: inc/elementor/widgets/SW_History/controls.php:61
+#: inc/elementor/widgets/SW_Items_Media/controls.php:121
+#: inc/elementor/widgets/SW_Jumbotron/controls.php:74
+#: inc/elementor/widgets/SW_Quotes/controls.php:30
+#: inc/elementor/widgets/SW_Small_Cards/controls.php:37
+#: inc/elementor/widgets/SW_TimeLine/controls.php:49
+msgid "Items"
+msgstr "آیتم ها"
+
+#: inc/elementor/widgets/SW_Before_After/controls.php:28
+#: inc/elementor/widgets/SW_Blue_Items/controls.php:94
+#: inc/elementor/widgets/SW_Dark_Image_Cards/controls.php:47
+#: inc/elementor/widgets/SW_Dark_Items/controls.php:49
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:49
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:134
+#: inc/elementor/widgets/SW_History/controls.php:67
+#: inc/elementor/widgets/SW_Items_Media/controls.php:127
+#: inc/elementor/widgets/SW_Jumbotron/controls.php:80
+#: inc/elementor/widgets/SW_Pinned_Images/controls.php:44
+#: inc/elementor/widgets/SW_Small_Cards/controls.php:43
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:61
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:95
+msgid "Choose An Image"
+msgstr "یک تصویر انتخاب کنید"
+
+#: inc/elementor/widgets/SW_Before_After/controls.php:40
+msgid "First Image"
+msgstr "تصویر اول"
+
+#: inc/elementor/widgets/SW_Before_After/controls.php:51
+msgid "Second Image"
+msgstr "تصویر دوم"
+
+#: inc/elementor/widgets/SW_Blue_Items/SW_Blue_Items.php:38
+msgid "Blue Items"
+msgstr "آیتم های آبی"
+
+#: inc/elementor/widgets/SW_Blue_Items/controls.php:10
+msgid " Part"
+msgstr " قسمت"
+
+#: inc/elementor/widgets/SW_Blue_Items/controls.php:39
+#: inc/elementor/widgets/SW_Divided_TextAreas/controls.php:30
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:60
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:165
+#: inc/elementor/widgets/SW_Pinned_Images/controls.php:111
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:132
+msgid "Show Button"
+msgstr "نمایش دکمه"
+
+#: inc/elementor/widgets/SW_Blue_Items/controls.php:59
+#: inc/elementor/widgets/SW_Divided_TextAreas/controls.php:50
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:77
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:201
+#: inc/elementor/widgets/SW_Pinned_Images/controls.php:131
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:152 inc/opt.php:487
+#: inc/opt.php:662
+msgid "Button Url"
+msgstr "لینک دکمه"
+
+#: inc/elementor/widgets/SW_Blue_Items/controls.php:79
+msgid "Show Items"
+msgstr "نمایش آیتم ها"
+
+#: inc/elementor/widgets/SW_Blue_Items/controls.php:106
+#: inc/elementor/widgets/SW_Dark_Items/controls.php:61
+#: inc/elementor/widgets/SW_Jumbotron/controls.php:92
+msgid "Only for second style"
+msgstr "فقط برای طرح دوم"
+
+#: inc/elementor/widgets/SW_Category_Posts/SW_Category_Posts.php:38
+msgid "Category Posts"
+msgstr "پست های دسته بندی شده"
+
+#: inc/elementor/widgets/SW_Category_Posts/controls.php:21
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:8
+msgid "Slider"
+msgstr "اسلایدر"
+
+#: inc/elementor/widgets/SW_Category_Posts/controls.php:55
+#, php-format
+msgid "Post %s be wide"
+msgstr "پست %s عریض باشد"
+
+#: inc/elementor/widgets/SW_Dark_Image_Cards/SW_Dark_Image_Cards.php:38
+msgid "Dark Image Cards"
+msgstr "ورق های تیره  تصویری"
+
+#: inc/elementor/widgets/SW_Dark_Image_Cards/controls.php:14
+msgid "Show Type"
+msgstr "نوع نمایش"
+
+#: inc/elementor/widgets/SW_Dark_Image_Cards/controls.php:18
+msgid "Product Categories"
+msgstr "دسته بندی محصولات"
+
+#: inc/elementor/widgets/SW_Dark_Image_Cards/controls.php:19
+msgid "Manual"
+msgstr "دستی"
+
+#: inc/elementor/widgets/SW_Dark_Image_Cards/controls.php:35
+msgid "Card Title"
+msgstr "عنوان ورق"
+
+#: inc/elementor/widgets/SW_Dark_Image_Cards/controls.php:42
+msgid "Card Description"
+msgstr "توضیحات ورق"
+
+#: inc/elementor/widgets/SW_Dark_Image_Cards/controls.php:60
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:69
+msgid "Learn more"
+msgstr "بیشتر بدانید"
+
+#: inc/elementor/widgets/SW_Dark_Image_Cards/controls.php:72
+msgid "Width 50%"
+msgstr "عرض 50%"
+
+#: inc/elementor/widgets/SW_Dark_Items/SW_Dark_Items.php:38
+msgid "Dark Items"
+msgstr "آیتم های تیره"
+
+#: inc/elementor/widgets/SW_Divided_TextAreas/SW_Divided_TextAreas.php:38
+msgid "Divided Text Areas"
+msgstr "ناحیه متن نصف شده"
+
+#: inc/elementor/widgets/SW_Divided_TextAreas/controls.php:14
+msgid "First Description"
+msgstr "توضیحات اول"
+
+#: inc/elementor/widgets/SW_Four_Value/SW_Four_Value.php:38
+msgid "Four Value"
+msgstr "چهار مقدار"
+
+#: inc/elementor/widgets/SW_Four_Value/controls.php:35
+msgid "Content (Top Right)"
+msgstr "محتوا (بالا راست)"
+
+#: inc/elementor/widgets/SW_Four_Value/controls.php:59
+#: inc/elementor/widgets/SW_Four_Value/controls.php:94
+#: inc/elementor/widgets/SW_Four_Value/controls.php:129
+#: inc/elementor/widgets/SW_Four_Value/controls.php:164
+msgid "Card Image"
+msgstr "تصویر ورق"
+
+#: inc/elementor/widgets/SW_Four_Value/controls.php:70
+msgid "Content (Bottom Right)"
+msgstr "محتوا (پایین راست)"
+
+#: inc/elementor/widgets/SW_Four_Value/controls.php:105
+msgid "Content (Top Left)"
+msgstr "محتوا (بالا چپ)"
+
+#: inc/elementor/widgets/SW_Four_Value/controls.php:140
+msgid "Content (Bottom Left)"
+msgstr "محتوا (پایین چپ)"
+
+#: inc/elementor/widgets/SW_FullWidth_Slider/SW_FullWidth_Slider.php:38
+msgid "Full Width Slider"
+msgstr "اسلایدر تمام عرض"
+
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:14
+#: inc/elementor/widgets/SW_Jumbotron/controls.php:14
+msgid "Style"
+msgstr "طرح"
+
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:18
+msgid "Style 1"
+msgstr "طرح 1"
+
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:19
+msgid "Style 2"
+msgstr "طرح 2"
+
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:20
+msgid "Style 3"
+msgstr "طرح 3"
+
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:21
+msgid "Style 4"
+msgstr "طرح 4"
+
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:29
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:48
+msgid "Slider Images"
+msgstr "تصاویر اسلایدر"
+
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:37
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:121
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:56
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:90
+msgid "Slide Title"
+msgstr "عنوان تصویر"
+
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:44
+msgid "Slide Sub Title"
+msgstr "زیر عنوان اسلاید"
+
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:88
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:153
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:73
+msgid "Slide Title #1"
+msgstr ""
+
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:98
+msgid "Box"
+msgstr "جعبه"
+
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:104
+msgid "Show Box"
+msgstr "نمایش جعبه"
+
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:128
+msgid "Slide Description"
+msgstr "توضیحات اسلاید"
+
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:177
+msgid "Button Image"
+msgstr "تصویر دکمه"
+
+#: inc/elementor/widgets/SW_FullWidth_Slider/controls.php:213
+msgid "Open Modal"
+msgstr "مودال باز شود"
+
+#: inc/elementor/widgets/SW_Half_Media_Content/SW_Half_Media_Content.php:38
+msgid "Half Media Content"
+msgstr "نصف محتوا و رسانه"
+
+#: inc/elementor/widgets/SW_Half_Media_Content/controls.php:13
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:13 inc/opt.php:315
+#: inc/opt.php:510
+msgid "Main Title"
+msgstr "عنوان اصلی"
+
+#: inc/elementor/widgets/SW_Half_Media_Content/controls.php:29
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:29
+msgid "Main Content Text"
+msgstr "متن محتوا اصلی"
+
+#: inc/elementor/widgets/SW_Half_Media_Content/controls.php:37
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:37
+msgid "Background Top Image"
+msgstr "تصویر بالای پس زمینه"
+
+#: inc/elementor/widgets/SW_Half_Media_Content/controls.php:48
+#: inc/elementor/widgets/SW_Pinned_Images/controls.php:91
+msgid "Show Video"
+msgstr "نمایش ویدیو"
+
+#: inc/elementor/widgets/SW_History/SW_History.php:38
+msgid "History"
+msgstr "تاریخچه"
+
+#: inc/elementor/widgets/SW_History/controls.php:41
+msgid "Button Label"
+msgstr "متن دکمه"
+
+#: inc/elementor/widgets/SW_History/controls.php:50
+msgid "Button Link"
+msgstr "لینک دکمه"
+
+#: inc/elementor/widgets/SW_History/controls.php:72
+msgid "Value"
+msgstr "مقدار"
+
+#: inc/elementor/widgets/SW_History/controls.php:74
+msgid "2500"
+msgstr ""
+
+#: inc/elementor/widgets/SW_History/controls.php:86
+msgid "Value Postfix"
+msgstr "پسوند مقدار"
+
+#: inc/elementor/widgets/SW_Items_Media/SW_Items_Media.php:38
+msgid "Items And Media"
+msgstr "آیتم و رسانه"
+
+#: inc/elementor/widgets/SW_Items_Media/controls.php:14
+msgid "Reverse Mode"
+msgstr "جهت برعکس"
+
+#: inc/elementor/widgets/SW_Items_Media/controls.php:22
+msgid "Dark Mode"
+msgstr "مدل تیره"
+
+#: inc/elementor/widgets/SW_Items_Media/controls.php:54
+msgid "Media Style"
+msgstr "طرح رسانه"
+
+#: inc/elementor/widgets/SW_Items_Media/controls.php:58
+msgid "360 Image"
+msgstr "تصویر 360"
+
+#: inc/elementor/widgets/SW_Items_Media/controls.php:83
+msgid "360 Colors"
+msgstr "رنگ های 360"
+
+#: inc/elementor/widgets/SW_Items_Media/controls.php:89
+msgid "Upload a zip file of images"
+msgstr "آپلود فایل زیپ از تصاویر"
+
+#: inc/elementor/widgets/SW_Items_Media/controls.php:94
+msgid "Pick a color"
+msgstr "یک رنگ انتخاب کنید"
+
+#: inc/elementor/widgets/SW_Items_Media/controls.php:107
+msgid "Items Style"
+msgstr "طرح آیتم ها"
+
+#: inc/elementor/widgets/SW_Items_Media/controls.php:111
+msgid "One Column"
+msgstr "یک ستونه"
+
+#: inc/elementor/widgets/SW_Items_Media/controls.php:112
+msgid "Two Columns"
+msgstr "دو ستونه"
+
+#: inc/elementor/widgets/SW_Items_Media/controls.php:113
+msgid "Three Columns"
+msgstr "3 ستونه"
+
+#: inc/elementor/widgets/SW_Jumbotron/SW_Jumbotron.php:38
+msgid "Jumbotron"
+msgstr "بنر بزرگ"
+
+#: inc/elementor/widgets/SW_Jumbotron/controls.php:18
+msgid "Multiple Items"
+msgstr "آیتم های چند تایی"
+
+#: inc/elementor/widgets/SW_Jumbotron/controls.php:19
+msgid "Single Item"
+msgstr "آیتم تکی"
+
+#: inc/elementor/widgets/SW_Jumbotron/controls.php:20
+msgid "Picture only"
+msgstr "فقط تصویر"
+
+#: inc/elementor/widgets/SW_Jumbotron_Overview/SW_Jumbotron_Overview.php:38
+msgid "OverView After Jumbotron"
+msgstr "نقل و قول نصف شده"
+
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:8
+msgid "Right Content"
+msgstr "محتوا راست"
+
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:39
+msgid "Left Content"
+msgstr "محتوا چپ"
+
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:70
+msgid "Center Content"
+msgstr "محتوا وسط"
+
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:92
+msgid "Subtitle"
+msgstr "زیر عنوان"
+
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:103
+msgid "Side Menu (Right Section)"
+msgstr "منوی کناری (برای بخش اول)"
+
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:109
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:141
+#: inc/elementor/widgets/Section_Controls.php:14
+msgid "Section Icon"
+msgstr "آیکون بخش"
+
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:125
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:157
+#: inc/elementor/widgets/Section_Controls.php:30
+msgid "Section Hashtag"
+msgstr "هشتگ بخش"
+
+#: inc/elementor/widgets/SW_Jumbotron_Overview/controls.php:135
+msgid "Side Menu (Left Section)"
+msgstr "منوی کناری (برای بخش دوم)"
+
+#: inc/elementor/widgets/SW_Pinned_Images/SW_Pinned_Images.php:38
+msgid "Pinnable Gallery"
+msgstr "گالری سنجاق شونده"
+
+#: inc/elementor/widgets/SW_Pinned_Images/controls.php:30
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:124
+msgid "Gray Background"
+msgstr "پس زمینه طوسی"
+
+#: inc/elementor/widgets/SW_Pinned_Images/controls.php:38
+msgid "Images"
+msgstr "تصاویر"
+
+#: inc/elementor/widgets/SW_Pinned_Images/controls.php:55
+msgid "Pin a location"
+msgstr "سنجاق یک موقعیت"
+
+#: inc/elementor/widgets/SW_Pinned_Images/controls.php:61
+#: inc/elementor/widgets/SW_Pinned_Images/controls.php:63
+msgid "Pin Text"
+msgstr "متن سنجاق"
+
+#: inc/elementor/widgets/SW_Pinned_Images/controls.php:71
+msgid "Pin distance from top"
+msgstr "فاصله سنجاق از بالا"
+
+#: inc/elementor/widgets/SW_Pinned_Images/controls.php:81
+msgid "Pin distance from left"
+msgstr "فاصله سنجاق از چپ"
+
+#: inc/elementor/widgets/SW_Pinned_Images/controls.php:97
+msgid "Video Address"
+msgstr "آدرس ویدیو"
+
+#: inc/elementor/widgets/SW_Product_Attributes/SW_Product_Attributes.php:38
+msgid "Product Attributes"
+msgstr "ویژگی محصولات"
+
+#: inc/elementor/widgets/SW_Product_Attributes/controls.php:44
+msgid "Categories"
+msgstr "دسته بندی ها"
+
+#: inc/elementor/widgets/SW_Product_Attributes/controls.php:57
+msgid "Attributes"
+msgstr "ویژگی ها"
+
+#: inc/elementor/widgets/SW_Quotes/controls.php:36
+msgid "Main Image"
+msgstr "تصویر اصلی"
+
+#: inc/elementor/widgets/SW_Quotes/controls.php:41
+msgid "Author Image"
+msgstr "تصویر نویسنده"
+
+#: inc/elementor/widgets/SW_Quotes/controls.php:46
+#: inc/elementor/widgets/SW_Quotes/controls.php:48
+msgid "Author"
+msgstr "نویسنده"
+
+#: inc/elementor/widgets/SW_Quotes/controls.php:60
+msgid "Post Url"
+msgstr "لینک پست"
+
+#: inc/elementor/widgets/SW_Quotes/controls.php:66
+msgid "Author Url"
+msgstr "لینک نویسنده"
+
+#: inc/elementor/widgets/SW_Quotes/controls.php:72
+msgid "Instagram Text"
+msgstr "متن اینستاگرام"
+
+#: inc/elementor/widgets/SW_Quotes/controls.php:74
+msgid "See more at instagram"
+msgstr "در اینستاگرام بیشتر ببینید"
+
+#: inc/elementor/widgets/SW_Small_Cards/SW_Small_Cards.php:38
+msgid "Small Cards"
+msgstr "ورق های کوچک"
+
+#: inc/elementor/widgets/SW_Small_Slider/SW_Small_Slider.php:62
+msgid "Small Slider"
+msgstr "اسلایدر کوچک"
+
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:82
+msgid "Images Under Slider"
+msgstr "تصاویر زیر اسلایدر"
+
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:107
+msgid "Image Title #1"
+msgstr ""
+
+#: inc/elementor/widgets/SW_Small_Slider/controls.php:116
+msgid "Reverse Direction"
+msgstr "جهت برعکس"
+
+#: inc/elementor/widgets/SW_ThermoMeter/SW_ThermoMeter.php:38
+msgid "ThermoMeter"
+msgstr "دماسنج"
+
+#: inc/elementor/widgets/SW_ThermoMeter/controls.php:38
+msgid "Minimum Temperature (In Celsius)"
+msgstr "حداقل دما (به سلسیوس)"
+
+#: inc/elementor/widgets/SW_ThermoMeter/controls.php:46
+msgid "Maximum Temperature (In Celsius)"
+msgstr "حداکثر دما (به سلسیوس)"
+
+#: inc/elementor/widgets/SW_TimeLine/SW_TimeLine.php:38
+msgid "Time Line"
+msgstr "تایم لاین"
+
+#: inc/elementor/widgets/SW_TimeLine/controls.php:40
+msgid "Measure"
+msgstr "واحد اندازه گیری"
+
+#: inc/elementor/widgets/SW_TimeLine/controls.php:62
+msgid "First Value"
+msgstr "مقدار اول"
+
+#: inc/elementor/widgets/SW_TimeLine/controls.php:68
+msgid "Second Value"
+msgstr "مقدار دوم"
+
+#: inc/elementor/widgets/SW_TimeLine/controls.php:74
+msgid "Third Value"
+msgstr "مقدار سوم"
+
+#: inc/elementor/widgets/SW_WaterMeter/SW_WaterMeter.php:38
+msgid "Water Meter"
+msgstr "لیتر سنج"
+
+#: inc/elementor/widgets/SW_WaterMeter/controls.php:38
+msgid "All Maximum"
+msgstr "حداکثر کل"
+
+#: inc/elementor/widgets/SW_WaterMeter/controls.php:46
+msgid "Minimum Text"
+msgstr "متن حداقل"
+
+#: inc/elementor/widgets/SW_WaterMeter/controls.php:54
+msgid "Minimum Number"
+msgstr "مقدار حداقل"
+
+#: inc/elementor/widgets/SW_WaterMeter/controls.php:62
+msgid "Maximum Text"
+msgstr "متن حداکثر"
+
+#: inc/elementor/widgets/SW_WaterMeter/controls.php:70
+msgid "Maximum Number"
+msgstr "مقدار حداکثر"
+
+#: inc/elementor/widgets/SW_WaterMeter/controls.php:78
+msgid "Measure Name"
+msgstr "واحد اندازه گیری"
+
+#: inc/elementor/widgets/Section_Controls.php:8
+msgid "Side Menu"
+msgstr "منوی کناری"
+
+#: inc/elementor/widgets/Section_Controls.php:38
+msgid "Hide Section side menu"
+msgstr "مخفی کردن منوی کناری"
+
+#: inc/nvm-actions.php:8
+msgid "Main Menu"
+msgstr "منوی اصلی"
+
+#: inc/nvm-actions.php:9
+msgid "Footer Menu"
+msgstr "منوی پاورقی"
+
+#: inc/nvm-functions.php:348 inc/nvm-functions.php:421
+msgid "&laquo;"
+msgstr ""
+
+#: inc/nvm-functions.php:349 inc/nvm-functions.php:422
+msgid "&raquo;"
+msgstr ""
+
+#: inc/nvm-functions.php:466
+msgid "&laquo; Previous"
+msgstr ""
+
+#: inc/nvm-functions.php:467
+msgid "Next &raquo;"
+msgstr ""
+
+#: inc/nvm-functions.php:556
+msgid "&hellip;"
+msgstr ""
+
+#: inc/nvm-functions.php:1893
+msgid "Upload Image"
+msgstr "آپلود تصویر"
+
+#: inc/nvm-options.php:7
+msgid "Theme Options"
+msgstr "تنظیمات پوسته"
+
+#: inc/nvm-options_content.php:11 inc/nvm-options_content.php:23
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+#: inc/nvm-users.php:30
+msgid "Writer"
+msgstr "نویسنده"
+
+#: inc/opt.php:6 inc/opt.php:99
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+#: inc/opt.php:15 inc/opt.php:165
+msgid "Header"
+msgstr "سرصفحه"
+
+#: inc/opt.php:33
+msgid "Home Page"
+msgstr "صفحه خانه"
+
+#: inc/opt.php:38 inc/opt.php:388
+msgid "Services Section"
+msgstr "بخش خدمات"
+
+#: inc/opt.php:42 inc/opt.php:281
+msgid "About Section"
+msgstr "بخش درباره ما"
+
+#: inc/opt.php:46 inc/opt.php:504
+msgid "Articles Section"
+msgstr "بخش مقالات"
+
+#: inc/opt.php:50 inc/opt.php:564
+msgid "Customers Section"
+msgstr "بخش مشتریان"
+
+#: inc/opt.php:54 inc/opt.php:541
+msgid "Gallery Section"
+msgstr "بخش گالری"
+
+#: inc/opt.php:58
+msgid "Appointments Section"
+msgstr "بخش نوبت دهی"
+
+#: inc/opt.php:67 inc/opt.php:763
+msgid "Internal Pages"
+msgstr "صفحات داخلی"
+
+#: inc/opt.php:76 inc/opt.php:800
+msgid "Footer"
+msgstr "پاورقی"
+
+#: inc/opt.php:106
+msgid "Site Name"
+msgstr "نام سایت"
+
+#: inc/opt.php:120
+msgid "Admin Email"
+msgstr "ایمیل مدیریت"
+
+#: inc/opt.php:138
+msgid "Template"
+msgstr "قالب"
+
+#: inc/opt.php:144
+msgid "Main Template"
+msgstr "قالب اصلی"
+
+#: inc/opt.php:149
+msgid "First Template"
+msgstr "قالب اول"
+
+#: inc/opt.php:150
+msgid "Second Template"
+msgstr "قالب دوم"
+
+#: inc/opt.php:171 inc/opt.php:820
+msgid "Logo Image"
+msgstr "تصویر لوگو"
+
+#: inc/opt.php:186
+msgid "Address Text"
+msgstr "متن آدرس"
+
+#: inc/opt.php:200
+msgid "Contact Text"
+msgstr "متن تماس"
+
+#: inc/opt.php:214
+msgid "Social Icons"
+msgstr "آیکون شبکه های اجتماعی"
+
+#: inc/opt.php:237
+msgid "Social Icon"
+msgstr "آیکون شبکه های اجتماعی"
+
+#: inc/opt.php:246
+msgid "Header Buttons"
+msgstr "دکمه های سرصفحه"
+
+#: inc/opt.php:269
+msgid "Button"
+msgstr "دکمه"
+
+#: inc/opt.php:329 inc/opt.php:524
+msgid "Description Text"
+msgstr "متن توضیحات"
+
+#: inc/opt.php:343
+msgid "Second Description Text"
+msgstr "متن توضیحات دوم"
+
+#: inc/opt.php:570 inc/opt.php:588
+msgid "Quotes"
+msgstr "نقل قول ها"
+
+#: inc/opt.php:600
+msgid "Appointment Section"
+msgstr "بخش نوبت دهی"
+
+#: inc/opt.php:679
+msgid "Cards Section"
+msgstr "بخش ورق ها"
+
+#: inc/opt.php:751
+msgid "Card"
+msgstr "ورق"
+
+#: inc/opt.php:783
+msgid "Telegram Url"
+msgstr "آدرس تلگرام"
+
+#: inc/opt.php:806
+msgid "Copyright Text"
+msgstr "متن کپی رایت"
+
+#: inc/post-types/post-type-consultation.php:15
+#: inc/post-types/post-type-consultation.php:16
+msgid "Consultation"
+msgstr "مشاوره"
+
+#: inc/post-types/post-type-consultation.php:17
+msgid "Add new Consultation"
+msgstr "افزودن مشاوره جدید"
+
+#: inc/post-types/post-type-consultation.php:18
+msgid "Add Consultation"
+msgstr "افزودن مشاوره"
+
+#: inc/post-types/post-type-consultation.php:19
+msgid "No Consultation found"
+msgstr "هیچ مشاوره ای یافت نشد"
+
+#: inc/post-types/post-type-consultation.php:20
+msgid "View Consultation"
+msgstr "مشاهده مشاوره"
+
+#: inc/post-types/post-type-consultation.php:21
+msgid "Edit Consultation"
+msgstr "ویرایش مشاوره"
+
+#: inc/post-types/post-type-consultation.php:52
+#: inc/post-types/post-type-contact.php:50
+#: inc/post-types/post-type-discount-request.php:58
+#: inc/post-types/post-type-package-request.php:54
+#: inc/post-types/post-type-special-card-request.php:55
+msgid "Date"
+msgstr "تاریخ"
+
+#: inc/post-types/post-type-consultation.php:53
+#: inc/post-types/post-type-contact.php:51
+#: inc/post-types/post-type-discount-request.php:59
+#: inc/post-types/post-type-package-request.php:55
+#: inc/post-types/post-type-special-card-request.php:56
+msgid "Operation"
+msgstr "عملیات"
+
+#: inc/post-types/post-type-contact.php:12
+#: inc/post-types/post-type-contact.php:13
+msgid "Contact"
+msgstr "تماس"
+
+#: inc/post-types/post-type-contact.php:14
+msgid "Add new Contact"
+msgstr "افزودن تماس جدید"
+
+#: inc/post-types/post-type-contact.php:15
+msgid "Add Contact"
+msgstr "افزودن تماس"
+
+#: inc/post-types/post-type-contact.php:16
+msgid "No Contact found"
+msgstr "هیچ تماسی یافت نشد"
+
+#: inc/post-types/post-type-contact.php:17
+msgid "View Contact"
+msgstr "مشاهده تماس"
+
+#: inc/post-types/post-type-contact.php:18
+msgid "Edit Contact"
+msgstr "ویرایش تماس"
+
+#: inc/post-types/post-type-discount-request.php:16
+#: inc/post-types/post-type-discount-request.php:17
+msgid "Discount Request"
+msgstr "درخواست تخفیف"
+
+#: inc/post-types/post-type-discount-request.php:18
+msgid "Add new Discount Request"
+msgstr "افزودن درخواست تخفیف جدید"
+
+#: inc/post-types/post-type-discount-request.php:19
+msgid "Add Discount Request"
+msgstr "افزودن درخواست تخفیف"
+
+#: inc/post-types/post-type-discount-request.php:20
+msgid "No Discount Request found"
+msgstr "هیچ درخواست تخفیفی یافت نشد"
+
+#: inc/post-types/post-type-discount-request.php:21
+msgid "View Discount Request"
+msgstr "نمایش درخواست تخفیف"
+
+#: inc/post-types/post-type-discount-request.php:22
+msgid "Edit Discount Request"
+msgstr "ویرایش درخواست تخفیف"
+
+#: inc/post-types/post-type-discount-request.php:23
+msgid "Discount Req"
+msgstr "درخ.. تخفیف"
+
+#: inc/post-types/post-type-discount-request.php:57
+#: inc/post-types/post-type-discount.php:11
+#: inc/post-types/post-type-discount.php:12
+msgid "Discount"
+msgstr "تخفیف"
+
+#: inc/post-types/post-type-discount.php:13
+msgid "Add new Discount"
+msgstr "افزودن تخفیف جدید"
+
+#: inc/post-types/post-type-discount.php:14
+msgid "Add Discount"
+msgstr "افزودن تخفیف"
+
+#: inc/post-types/post-type-discount.php:15
+msgid "No Discount found"
+msgstr "هیچ تخفیفی یافت نشد"
+
+#: inc/post-types/post-type-discount.php:16
+msgid "View Discount"
+msgstr "مشاهده تخفیف"
+
+#: inc/post-types/post-type-discount.php:17
+msgid "Edit Discount"
+msgstr "ویرایش تخفیف"
+
+#: inc/post-types/post-type-event.php:10 inc/post-types/post-type-event.php:11
+msgid "Event"
+msgstr "رویداد"
+
+#: inc/post-types/post-type-event.php:12
+msgid "Add new Event"
+msgstr "افزودن رویداد جدید"
+
+#: inc/post-types/post-type-event.php:13
+msgid "Add Event"
+msgstr "افزودن رویداد"
+
+#: inc/post-types/post-type-event.php:14
+msgid "No Event found"
+msgstr "هیچ رویدادی یافت نشد"
+
+#: inc/post-types/post-type-event.php:15
+msgid "View Event"
+msgstr "نمایش رویداد"
+
+#: inc/post-types/post-type-event.php:16
+msgid "Edit Event"
+msgstr "ویرایش رویداد"
+
+#: inc/post-types/post-type-package-request.php:13
+#: inc/post-types/post-type-package-request.php:14
+msgid "Package Request"
+msgstr "درخواست پکیج"
+
+#: inc/post-types/post-type-package-request.php:15
+msgid "Add new Package Request"
+msgstr "افزودن درخواست پکیج جدید"
+
+#: inc/post-types/post-type-package-request.php:16
+msgid "Add Package Request"
+msgstr "افزودن درخواست پکیج"
+
+#: inc/post-types/post-type-package-request.php:17
+msgid "No Package Request found"
+msgstr "هیچ درخواست پکیجی یافت نشد"
+
+#: inc/post-types/post-type-package-request.php:18
+msgid "View Package Request"
+msgstr "نمایش درخواست پکیج"
+
+#: inc/post-types/post-type-package-request.php:19
+msgid "Edit Package Request"
+msgstr "ویرایش درخواست پکیج"
+
+#: inc/post-types/post-type-photo.php:9 inc/post-types/post-type-photo.php:10
+msgid "Photo"
+msgstr "تصویر"
+
+#: inc/post-types/post-type-photo.php:11
+msgid "Add new Photo"
+msgstr "افزودن تصویر جدید"
+
+#: inc/post-types/post-type-photo.php:12
+msgid "Add Photo"
+msgstr "افزودن تصویر"
+
+#: inc/post-types/post-type-photo.php:13
+msgid "No Photo found"
+msgstr "هیچ تصویری یافت نشد"
+
+#: inc/post-types/post-type-photo.php:14
+msgid "View Photo"
+msgstr "نمایش تصویر"
+
+#: inc/post-types/post-type-photo.php:15
+msgid "Edit Photo"
+msgstr "ویرایش تصویر"
+
+#: inc/post-types/post-type-photo.php:35 inc/post-types/post-type-photo.php:67
+#: inc/post-types/post-type-photo.php:71
+msgid "Album"
+msgstr "آلبوم"
+
+#: inc/post-types/post-type-photo.php:69 inc/post-types/post-type-photo.php:70
+#: inc/post-types/post-type-photo.php:81
+msgid "Albums"
+msgstr "آلبوم ها"
+
+#: inc/post-types/post-type-photo.php:72
+msgid "Search in Albums"
+msgstr "جستجو در آلبوم ها"
+
+#: inc/post-types/post-type-photo.php:73
+msgid "Popular Albums"
+msgstr "آلبوم های محبوب"
+
+#: inc/post-types/post-type-photo.php:74
+msgid "All Albums"
+msgstr "همه ی آلبوم ها"
+
+#: inc/post-types/post-type-photo.php:75
+msgid "Parent Album"
+msgstr "آلبوم والد"
+
+#: inc/post-types/post-type-photo.php:76
+msgid "Edit Album"
+msgstr "ویرایش آلبوم"
+
+#: inc/post-types/post-type-photo.php:77
+msgid "View Album"
+msgstr "نمایش آلبوم"
+
+#: inc/post-types/post-type-photo.php:78
+msgid "Update Album"
+msgstr "بروزرسانی آلبوم"
+
+#: inc/post-types/post-type-photo.php:79
+msgid "Add Album"
+msgstr "افزودن آلبوم"
+
+#: inc/post-types/post-type-photo.php:80
+msgid "New Album name"
+msgstr "نام جدید آلبوم"
+
+#: inc/post-types/post-type-service.php:13
+msgid "Add new Service"
+msgstr "افزودن خدمات جدید"
+
+#: inc/post-types/post-type-service.php:14
+msgid "Add Service"
+msgstr "افزودن خدمات"
+
+#: inc/post-types/post-type-service.php:15
+msgid "No Service found"
+msgstr "هیچ خدماتی یافت نشد"
+
+#: inc/post-types/post-type-service.php:16
+msgid "View Service"
+msgstr "مشاهده خدمات"
+
+#: inc/post-types/post-type-service.php:17
+msgid "Edit Service"
+msgstr "ویرایش خدمات"
+
+#: inc/post-types/post-type-special-card-request.php:14
+#: inc/post-types/post-type-special-card-request.php:15
+msgid "Card Request"
+msgstr "درخواست کارت"
+
+#: inc/post-types/post-type-special-card-request.php:16
+msgid "Add new Card Request"
+msgstr "افزودن درخواست کارت جدید"
+
+#: inc/post-types/post-type-special-card-request.php:17
+msgid "Add Card Request"
+msgstr "افزودن درخواست کارت"
+
+#: inc/post-types/post-type-special-card-request.php:18
+msgid "No Card Request found"
+msgstr "هیچ درخواست کارتی یافت نشد"
+
+#: inc/post-types/post-type-special-card-request.php:19
+msgid "View Card Request"
+msgstr "نمایش درخواست کارت"
+
+#: inc/post-types/post-type-special-card-request.php:20
+msgid "Edit Card Request"
+msgstr "ویرایش درخواست کارت"
+
+#: inc/post-types/post-type-special-card-request.php:54
+#: inc/post-types/post-type-special-card.php:11
+#: inc/post-types/post-type-special-card.php:12
+msgid "Special Card"
+msgstr "کارت ویژه"
+
+#: inc/post-types/post-type-special-card.php:13
+msgid "Add new Special Card"
+msgstr "افزودن کارت ویژه جدید"
+
+#: inc/post-types/post-type-special-card.php:14
+msgid "Add Special Card"
+msgstr "افزودن کارت ویژه"
+
+#: inc/post-types/post-type-special-card.php:15
+msgid "No Special Card found"
+msgstr "هیچ کارت ویژه ای یافت نشد"
+
+#: inc/post-types/post-type-special-card.php:16
+msgid "View Special Card"
+msgstr "مشاهده کارت ویژه"
+
+#: inc/post-types/post-type-special-card.php:17
+msgid "Edit Special Card"
+msgstr "ویرایش کارت ویژه"
+
+#. Theme Name of the plugin/theme
+msgid "Psychologist"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://shemiranweb.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This is a professional Wordpress theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Payam Jafari"
+msgstr ""
+
+#~ msgid "Section 2"
+#~ msgstr "بخش دوم"
+
+#~ msgid "Welcome Text"
+#~ msgstr "متن خوش آمد گویی"
+
+#~ msgid "Logo"
+#~ msgstr "لوگو"
+
+#~ msgid "Introduction Text"
+#~ msgstr "متن معرفی"
+
+#~ msgid "Links"
+#~ msgstr "لینک ها"
+
+#~ msgid "Link"
+#~ msgstr "لینک"
+
+#~ msgid "Check list"
+#~ msgstr "چک لیست"
+
+#~ msgid "Customers"
+#~ msgstr "مشتری ها"
+
+#~ msgid "Appointment"
+#~ msgstr "نوبت دهی"
+
+#~ msgid "Short Text"
+#~ msgstr "متن کوتاه"
+
+#~ msgid "Free Style"
+#~ msgstr "طرح آزاد"
+
+#~ msgid "Packages Section"
+#~ msgstr "بخش پکیج ها"
+
+#~ msgid "Background Image"
+#~ msgstr "تصویر پس زمینه"
+
+#~ msgid "Intro Card Button Text"
+#~ msgstr "متن دکمه معرفی"
+
+#~ msgid "Intro Card Button Url"
+#~ msgstr "لینک دکمه معرفی"
+
+#~ msgid "First Title"
+#~ msgstr "عنوان اول"
+
+#~ msgid "Second Title"
+#~ msgstr "عنوان دوم"
+
+#~ msgid "Packages"
+#~ msgstr "پکیج ها"
+
+#~ msgid "Add new Package"
+#~ msgstr "افزودن پکیج جدید"
+
+#~ msgid "Add Package"
+#~ msgstr "افزودن پکیج"
+
+#~ msgid "No Package found"
+#~ msgstr "هیچ پکیجی یافت نشد"
+
+#~ msgid "View Package"
+#~ msgstr "نمایش پکیج"
+
+#~ msgid "Edit Package"
+#~ msgstr "ویرایش پکیج"
+
+#~ msgid "Special Options"
+#~ msgstr "تنظیمات اختصاصی"
+
+#~ msgid "Quote Author"
+#~ msgstr "نویسنده نقل قول"
+
+#~ msgid "Quote Author Avatar"
+#~ msgstr "تصویر آواتار نقل قول"
+
+#~ msgid "Short Quote Text"
+#~ msgstr "متن کوتاه نقل قول"
+
+#~ msgid "HashTag Short Description"
+#~ msgstr "توضیح کوتاه هشتگ"
+
+#~ msgid "Open In New Tab"
+#~ msgstr "در پنجره جدید باز کن"
+
+#~ msgid "Large Image for Categories Page"
+#~ msgstr "تصویر بزرگ برای صفحه دسته بندی ها"
+
+#~ msgid "50% Width in Categories Page"
+#~ msgstr "عرض 50% برای صفحه دسته بندی ها"
+
+#~ msgid "Sort Order"
+#~ msgstr "ترتیب"
+
+#~ msgid "Dont show energy usage in filters"
+#~ msgstr "میزان مصرف انرژی رو در فیلتر ها نمایش نده"
+
+#~ msgid "Dont show color in filters"
+#~ msgstr "رنگ رو در فیلتر ها نمایش نده"
+
+#~ msgid "Is this product featured ?"
+#~ msgstr "آیا این محصول ویژه است ؟"
+
+#~ msgid "In slider"
+#~ msgstr "در اسلایدر"
+
+#~ msgid "Title in slider"
+#~ msgstr "عنوان در اسلایدر"
+
+#~ msgid "SubTitle in slider"
+#~ msgstr "زیرعنوان در اسلایدر"
+
+#~ msgid "Description in slider"
+#~ msgstr "متن توضیح اول در اسلایدر"
+
+#~ msgid "Second Description in slider"
+#~ msgstr "متن توضیح دوم در اسلایدر"
+
+#~ msgid "Button in slider Text"
+#~ msgstr "متن دکمه در اسلایدر"
+
+#~ msgid "Quick Access"
+#~ msgstr "دسترسی سریع"
+
+#~ msgid "Second Footer Menu"
+#~ msgstr "منوی دوم پاورقی"
+
+#, fuzzy
+#~| msgid "FAQ Selection"
+#~ msgid "Hello Section"
+#~ msgstr "سوالات متداول منتخب"
+
+#~ msgid "Campaign"
+#~ msgstr "جشنواره"
+
+#~ msgid "Start Time"
+#~ msgstr "زمان شروع"
+
+#~ msgid "End Time"
+#~ msgstr "زمان پایان"
+
+#~ msgid "Status"
+#~ msgstr "وضعیت"
+
+#~ msgid "Unknown"
+#~ msgstr "نامشخص"
+
+#~ msgid "Campaign Shops"
+#~ msgstr "فروشگاه های جشنواره"
+
+#~ msgid "Shops"
+#~ msgstr "فروشگاه ها"
+
+#~ msgid "Search in Shops"
+#~ msgstr "جستجو در فروشگاه ها"
+
+#~ msgid "Popular Shops"
+#~ msgstr "فروشگاه های محبوب"
+
+#~ msgid "All Shops"
+#~ msgstr "همه ی فروشگاه ها"
+
+#~ msgid "Parent Shop"
+#~ msgstr "فروشگاه والد"
+
+#~ msgid "Update Shop"
+#~ msgstr "بروزرسانی فروشگاه"
+
+#~ msgid "New Shop name"
+#~ msgstr "نام جدید فروشگاه"
+
+#~ msgid "External"
+#~ msgstr "خارجی"
+
+#~ msgid "Add new External Post"
+#~ msgstr "افزودن نوشته خارجی جدید"
+
+#~ msgid "No External Post found"
+#~ msgstr "هیچ نوشته خارجی پیدا نشد"
+
+#~ msgid "Question"
+#~ msgstr "سوال"
+
+#~ msgid "Add Question"
+#~ msgstr "افزودن سوال"
+
+#~ msgid "View Question"
+#~ msgstr "مشاهده سوال"
+
+#~ msgid "Edit Question"
+#~ msgstr "ویرایش سوال"
+
+#~ msgid "FAQ Categories"
+#~ msgstr "دسته بندی سوالات متداول"
+
+#~ msgid "Search in Categories"
+#~ msgstr "جستجو در دسته بندی ها"
+
+#~ msgid "Popular Categories"
+#~ msgstr "دسته بندی های محبوب"
+
+#~ msgid "All Categories"
+#~ msgstr "همه ی دسته بندی ها"
+
+#~ msgid "Parent Category"
+#~ msgstr "دسته بندی والد"
+
+#~ msgid "Edit Category"
+#~ msgstr "ویرایش دسته بندی"
+
+#~ msgid "Update Category"
+#~ msgstr "بروزرسانی دسته بندی"
+
+#~ msgid "Add Category"
+#~ msgstr "افزودن دسته بندی"
+
+#~ msgid "New Category name"
+#~ msgstr "نام جدید دسته بندی"
+
+#~ msgid "Under Icons Text"
+#~ msgstr "متن زیر آیکون ها"
+
+#~ msgid "Snowa"
+#~ msgstr "اسنوا"
+
+#~ msgid "First Sub Title"
+#~ msgstr "زیر عنوان عنوان"
+
+#~ msgid "Second Sub Title"
+#~ msgstr "زیر عنوان دوم"
+
+#~ msgid "Slider Items"
+#~ msgstr "آیتم های اسلایدر"
+
+#~ msgid "Second Title in slider"
+#~ msgstr "عنوان دوم در اسلایدر"
+
+#~ msgid "Second SubTitle in slider"
+#~ msgstr "زیرعنوان دوم در اسلایدر"
+
+#~ msgid "Linkedin URL"
+#~ msgstr "آدرس لینکدین"
+
+#~ msgid "Items and image"
+#~ msgstr "آیتم ها و تصویر"
+
+#~ msgid "Search in products or categories ..."
+#~ msgstr "نام محصول یا دسته بندی مورد نظر را جستجو کنید..."
+
+#~ msgid "Brand"
+#~ msgstr "برند"
+
+#~ msgid "All Brands"
+#~ msgstr "همه ی برندها"
+
+#~ msgid "New Brand Name"
+#~ msgstr "نام برند جدید"
+
+#~ msgid "Separate Brands with commas"
+#~ msgstr "جدا کردن برند ها با ویرگول"
+
+#~ msgid "Add or remove Brands"
+#~ msgstr "افزودن یا حذف برندها"
+
+#~ msgid "Choose from the most used Brands"
+#~ msgstr "انتخاب از برند های بیشتر استفاده شده"
+
+#~ msgid "Brands"
+#~ msgstr "برند ها"
+
+#~ msgid "Web Site"
+#~ msgstr "وبسایت"

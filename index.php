@@ -1,0 +1,2 @@
+﻿<?php
+get_template_part('templates/tpl-home');

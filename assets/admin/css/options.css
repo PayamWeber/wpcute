@@ -1,0 +1,614 @@
+
+/* pmw admin options */
+
+/*options style*/
+
+#looxBody{
+    color: #ccc;
+    margin-top:40px;
+}
+
+#wpwrap{
+    background: rgb(241, 242, 247);
+}
+
+#looxBody h2{
+    color: #ccc;
+}
+
+header h2{
+    font-family:IRANSans !important;
+}
+
+ul#adminmenu > li.current > a.current::after {
+    /*border-left-color: #222222;*/
+}
+
+.fadeOut{
+    opacity:0;
+}
+
+.save_pmw_options .fa{
+    height:1.05em;
+    float: left;
+    margin-top: 15px;
+    display: none;
+    font-size: 3em;
+    color: rgb(175, 162, 186);
+}
+
+.save_pmw_options .save_message{
+    float: left;
+    margin-top: 20px;
+    margin-left:10px;
+    display: none;
+}
+
+#setting-error-settings_updated{
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    background-color: rgb(65, 73, 81);
+    -webkit-box-shadow: 0 3px 5px rgba(0,0,0,.2);
+    box-shadow: 0 3px 5px rgba(0,0,0,.2);
+    color: #DDDDDD;
+    margin-bottom:20px;
+}
+
+
+
+
+
+#looxBody #looxBox {
+    width: 95%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: rgb(50, 55, 60);
+    margin: 0 auto;
+}
+
+#looxBody #looxBox header{
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 50, 58);
+}
+
+#looxBody #looxBox header h2{
+    color: rgb(175, 162, 186);
+    margin:0;
+    padding: 20px 25px;
+}
+
+#looxBody #looxBox header p.submit{
+    margin: 0;
+    padding: 15px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+/* aside style */
+
+#looxBody #looxBox aside{
+    width: 30%;
+    float:right;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    background-color: rgb(255, 255, 255);
+    margin-top:20px;
+}
+
+#looxBody #looxBox aside ul{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+}
+
+#looxBody #looxBox aside ul li{
+    width: 100%;
+    position: relative;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+    z-index: 100;
+    color: rgb(65, 73, 81);
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgb(242, 243, 246);
+}
+
+#looxBody #looxBox aside ul .activate{
+    background: rgb(250, 250, 250);
+    z-index: 1000;
+}
+
+#looxBody #looxBox aside ul .activate div{
+}
+
+#looxBody #looxBox aside ul li:hover{
+    background: rgb(250, 250, 250);
+    z-index: 100;
+}
+
+#looxBody #looxBox aside ul li:hover:before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0px;
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    border-right-color: rgb(31, 181, 173); 
+    background: transparent;
+}
+
+#looxBody #looxBox aside ul .activate:before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0px;
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    border-right-color: rgb(31, 181, 173); 
+    background: transparent;
+}
+
+#looxBody #looxBox aside ul li div{
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    padding: 10px 15px 12px 0;
+    transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+}
+
+#looxBody #looxBox aside ul li:hover div{
+}
+
+#looxBody #looxBox aside ul li .title{
+    display:inline-block;
+    padding: 5px 10px 0 0;
+    font-size:12pt;
+}
+
+#looxBody #looxBox aside ul li .dashicons{
+    padding: 1px;
+    color: rgb(50, 50, 58);
+    font-size:2em;
+}
+
+#looxBody #looxBox aside ul li:hover .dashicons{
+    color: rgb(31, 181, 173);
+}
+
+#looxBody #looxBox aside ul li ul {
+    background: rgb(250, 250, 250);
+    display: none;
+}
+
+#looxBody #looxBox aside ul li ul li{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:10px;
+    color: #999;
+    border-bottom: none;
+}
+
+#looxBody #looxBox aside ul li ul :hover {
+    background: rgb(250, 250, 250);
+}
+
+#looxBody #looxBox aside ul .activate .dashicons{
+    padding: 1px;
+    color: rgb(31, 181, 173);
+    font-size:2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* section style */
+
+#looxBody #looxBox section{
+    width: 70%;
+    float:right;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    padding-right:20px;
+    margin-top:20px;
+    position:relative;
+}
+
+#looxBody #looxBox section .singleBlock{
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 10px;
+    display:none;
+}
+
+#looxBody #looxBox section .singleBlock .part_title{
+    font-size: 18pt;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 30px 10px;
+    font-family: IRANSans !important;
+    color: rgb(162, 162, 162);
+    font-weight: normal;
+    border-bottom: 1px solid rgb(239, 242, 247);
+}
+
+#looxBody #looxBox section .singleBlock .settingTitle{
+    font-size: 12pt;
+    margin: 0;
+    padding: 10px 3px;
+    font-family: IRANSans !important;
+    color: rgb(118, 118, 118);
+}
+
+#looxBody #looxBox section .singleBlock .singleSetting{
+    margin-bottom:60px;
+}
+
+#looxBody #looxBox section .singleBlock .singleSetting > .prop_div{
+    display: none;
+}
+
+#looxBody #looxBox section .singleBlock .singleSetting:after,#looxBody #looxBox section .singleBlock .singleSetting .items_body:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+
+#looxBody #looxBox section .singleBlock .singleSetting > small{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 10px;
+    display: inline-block;
+    width: 30%;
+}
+
+#looxBody #looxBox section .singleBlock .singleSetting > small.full_width{
+    width: 100%;
+}
+
+#looxBody #looxBox section .singleBlock input[type="text"],#looxBody #looxBox section .singleBlock textarea{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: rgb(85, 85, 85);
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    box-shadow: none;
+    /*color: rgb(194, 194, 194);*/
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+}
+
+#looxBody #looxBox section .singleBlock textarea{
+    border-radius: 20px;
+}
+
+#looxBody #looxBox section .singleBlock textarea{
+    width:100%;
+    max-width:100%;
+    height:150px;
+    padding:10px;
+}
+
+#looxBody #looxBox section .singleBlock .half_input[type="text"]{
+    width:50%;
+}
+
+#looxBody #looxBox section .singleBlock .prop_div{
+    width:50%;
+    float: right;
+}
+
+#looxBody #looxBox section .singleBlock .prop_div input[type="text"]{
+    width:100%;
+    margin:0;
+}
+
+#looxBody #looxBox section .singleBlock .prop_div .button{
+    padding: 5px;
+    font-size: 9px;
+    line-height: 1;
+    height: 20px;
+    margin-top:-6px;
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.14);
+    border: none;
+    border-bottom: none;
+    box-shadow: none;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+
+#looxBody #looxBox section .singleBlock input.pmw_number{
+    text-align: left;
+    direction: ltr;
+    width:70%;
+    float: left;
+}
+
+#looxBody #looxBox section .singleBlock .add_note_btn{
+    float: left;
+    margin-top:20px;
+    border:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: rgba(110, 123, 137,0.6);
+    color: #ddd;
+}
+
+#looxBody #looxBox section .singleBlock .big_image_upload{
+    border:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: rgba(110, 123, 137,0.6);
+    color: #ddd;
+}
+
+#looxBody #looxBox section .singleBlock .cm_body{
+    background: rgba(0,0,0,0.1);
+    border:5px solid rgba(0,0,0,0.1);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:20px;
+    position: relative;
+}
+
+#looxBody #looxBox section .singleBlock .singleSetting > .cm_body{
+    display: none;
+}
+
+#looxBody #looxBox section .singleBlock .cm_body label{
+    display: block;
+    clear: both;
+    padding:10px 0;
+}
+
+#looxBody #looxBox section .singleBlock .remove{
+    border:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: rgba(110, 123, 137,0.6);
+    color: #ddd;
+}
+
+#looxBody #looxBox section .singleBlock .remove_cm{
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+
+#looxBody #looxBox section .singleBlock .add_cm_btn{
+    border:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: rgba(110, 123, 137,0.6);
+    color: #fff;
+    font-size:14pt;
+    padding:5px 20px;
+    float: left;
+    height:40px;
+    margin-top:20px;
+}
+
+/* colors */
+
+.setting_color_red .settingTitle{
+    border-right-color: red !important;
+}
+
+.setting_color_green .settingTitle{
+    border-right-color: green !important;
+}
+
+.setting_color_yellow .settingTitle{
+    border-right-color: yellow !important;
+}
+
+.setting_color_purple .settingTitle{
+    border-right-color: purple !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  footer style  */
+
+#looxBody #looxBox footer {
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    color: rgb(118, 118, 118);
+    clear: both;
+    float: right;
+    margin-top: 20px;
+}
+
+#looxBody #looxBox footer h2{
+    color: #DDDDDD;
+    margin:0;
+    padding: 20px 25px;
+}
+
+#looxBody #looxBox footer p.submit{
+    margin: 0;
+    padding: 15px;
+    float: left;
+}
+
+#looxBody header:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.save_pmw_options #submit{
+    background: rgb(31, 181, 173);
+    padding: 12px 0;
+    text-align: center;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    border: none;
+    height: inherit;
+    width: inherit;
+    padding: 10px 30px;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.save_pmw_options #submit:hover{
+    background: rgb(30, 147, 141);
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width: 768px )
+{
+    #looxBody #looxBox section{
+        width: 100%;
+        padding-right: 0;
+    }
+    #looxBody #looxBox aside{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

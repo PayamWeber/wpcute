@@ -1,0 +1,65 @@
+/*
+Theme name: WP Cute
+Theme URI: http://payamjafari.ir
+Author: Payam Jafari
+Author URI: http://payamjafari.ir
+Licence: GPL.
+Version: 1.0
+Description: This is a professional Wordpress theme
+Text Domain: artist
+ */
+
+.captcha-reload {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #7B5F43;
+    display: inline-block;
+    position: relative;
+    border-right-color: transparent;
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+}
+
+.captcha-reload:before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    top: -7px;
+    left: 11px;
+    z-index: 9;
+    background: #7b5f43;
+    transform: rotate(150deg);
+    -webkit-transform: rotate(150deg);
+    -moz-transform: rotate(150deg);
+}
+
+.captcha-reload:after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    top: -2px;
+    left: 8px;
+    z-index: 9;
+    background: #7b5f43;
+    transform: rotate(-115deg);
+    -webkit-transform: rotate(-115deg);
+    -moz-transform: rotate(-115deg);
+}
+
+#captcha-image {
+    border: 1px solid #7B5F43;
+}
+
+.slider-section-container{
+    direction: ltr;
+}
+
+rs-layer{
+    direction: rtl;
+    font-family: "IRANSans", tahoma, arial !important;
+}
